@@ -1,0 +1,400 @@
+<html>
+<head><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family</title>
+    <link rel="icon" type="image/jpg" href="image/brand.jpg">
+    <style>
+ 	body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6e6e6;
+            overflow-x: hidden;
+            height: 200vh;
+        }
+        header {
+            background-color:#5C4033;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+	}
+	nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+}
+        nav a:hover {
+            color: #5C4033;
+            background-color: #e3d3cd;
+            text-decoration: underline;
+            color: #5C4033;
+            border-radius: 30px;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0078d4;
+        }
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e3d3cd;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #5C4033;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #555;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.gallery-item {
+    width: 22%;
+    overflow: hidden;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}.cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+	}
+        .card {
+            background-color:#deb1b1;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(3, 3, 3, 0.5);
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+	    transition: transform 0.3s ease;
+        }
+	.card:hover {
+	    background-color: #deb1b1;
+            transform: scale(1.1) translateY(-10px);
+	}   
+        .card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            font-size: 18px;
+            margin: 10px 0;
+            color: maroon;
+        }
+
+        .card p {
+            font-size: 16px;
+            color: #5C4033;
+        }
+
+        .add-card {
+            background-color: #f0f8f8;
+            border: 2px dashed #0078d4;
+            color: #0078d4;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease;
+        }
+
+        .add-card:hover {
+            background-color: #e6e6e6;
+            transform: scale(1.1) translateY(-10px);
+        }
+
+        .add-card span {
+            font-size: 48px;
+        }
+.info {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+}
+
+.info h1 {
+    font-size: 24px;
+    color: #5C4033;
+}
+.info .highlight {
+    color:maroon;
+    text-decoration: underline;
+}
+        </style>
+</head>
+
+<body>
+
+<header>
+    <h1>FAMILY</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="biodata.html">Biodata</a>
+    <a href="experience.html">Experience</a>
+    <a href="education.html">Education</a>
+    <a href="family.html">Family</a>
+    <a href="gallery.html"target="_blank">Gallery</a>
+</nav>
+
+<br>
+<br>
+<br>
+        <section class="info">
+	    <section class="about" id="about">
+            <h1>The Heart of Every Home is <span class="highlight">Family</span></h1>
+            <p>
+               Family is the heart of our lives, a place where love begins and never ends. It's not just about blood ties but the bonds we build through trust, care, and shared moments. In a world full of change, family remains our constant source of strength, laughter, and unconditional support. It's the place where we’re embraced for who we are, nurtured to grow, and reminded that we never face life’s challenges alone. Through every triumph and trial, family stands as a beacon of unwavering support and endless love.
+            </p>
+        </section>
+
+</body>
+</html>
+
+<br>
+<br>
+<br>
+<br>
+
+    <div class="container">
+        <div class="header" style="display: inline; color: maroon;">My Family Members</div>
+
+        <div class="cards">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="image/ayah2.jpg" alt="ayah">
+                <h3>SULAIMAN MD NOH</h3>
+                <p>My first love!</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="image/ibu.jpg" alt="Ibu">
+                <h3>YUSDILIA YUSOF</h3>
+                <p>Queen, bestie, sister & everything!</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="image/maman.jpg" alt="maman">
+                <h3>MUHAMMAD YUZAIMAN</h3>
+                <p>My best listener & adviser!</p>
+            </div>
+	    <!-- Card 4 -->
+            <div class="card">
+                <img src="image/hafiz.jpg" alt="hafiz">
+                <h3>YUSHAFIZAL HAFIZ</h3>
+                <p>The person who cares the most!</p>
+                
+            </div>
+	    <!-- Card 5 -->
+            <div class="card">
+                <img src="image/suhaila.jpg" alt="suhaila">
+                <h3>SUHAILA YUSRINA</h3>
+                <p>A princess in family</p>
+	    </div>
+
+	    <!-- Card 6 -->
+            <div class="card">
+                <img src="image/haziq.jpg" alt="haziq">
+                <h3>YUSHARIZAL HAZIQ</h3>
+                <p>The person that is always thankful to everything</p>
+	    </div>
+
+        </div>
+    </div>
+</body>
+
+<br>
+<br>
+<br>
+
+<center><img src="image/bigfam.jpg"
+alt="family"width="520" height="340"></center>
+
+<br>
+
+<center><img src="image/bigfam2.jpg"
+alt="family"width="520" height="340"></center>
+
+    <main>
+        <section class="gallery">
+	    <div class="gallery-item">
+                <img src="image/sibling3.jpg" alt="3">
+            </div>
+            <div class="gallery-item">
+                <img src="image/sibling1.jpg" alt="1">
+            </div>
+            <div class="gallery-item">
+                <img src="image/maktok.jpg" alt="maktok">
+            </div>
+            <div class="gallery-item">
+                <img src="image/budak.jpg" alt="budak">
+            </div>
+</main>
+</section>
+
+<center><img src="image/fam.jpg"
+alt="family" width="420" height="440">
+
+<img src="image/fam2.jpg"
+alt="family" width="420" height="440"></center>
+
+<br>
+<br>
+<br>
+<br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Back to Top Button</title>
+  <style>
+
+    /* Back to Top Button Style */
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #5C4033;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 15px 20px;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: none; /* Hidden by default */
+      z-index: 1000;
+    }
+
+    .back-to-top:hover {
+      background-color: #e3d3cd;
+    }
+  </style>
+</head>
+<body>
+
+
+ <button class="back-to-top" id="backToTop">↑</button>
+
+
+  <script>
+    // Get the button element
+    const backToTopButton = document.getElementById('backToTop');
+
+    // Show or hide the button based on scroll position
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 200) { // Show after scrolling 200px
+        backToTopButton.style.display = 'block';
+      } else {
+        backToTopButton.style.display = 'none';
+      }
+    });
+
+    // Scroll back to top when the button is clicked
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Smooth scrolling
+      });
+    });
+  </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Links</title>
+    <!-- Add Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #5C4033; 
+            font-size: 30px;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="social-media">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/suhailaysrna?igsh=aTh0dW4yN3p5Zmlh" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@av0cad0lover" target="_blank">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <!-- WhatsApp -->
+        <a href="https://wa.link/l3dy7f" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+</body>
+
+
+<div>
+<center><p>✆ 012-7129446 |  ✉ suhailayusrina08@gmail.com |  🏠︎ Pasir Gudang, Johor</p></center>
+</div>
+
+
+<center><p style="background-color:#5C4033; color: white; padding: 40px; width: 100%;"><b>&copy; 2024 Suhaila. All Rights Reserved.</b></p></center>
+</html>
