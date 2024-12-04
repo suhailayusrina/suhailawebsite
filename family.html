@@ -12,6 +12,7 @@
             padding: 0;
             background-color: #e6e6e6;
             overflow-x: hidden;
+            height: 200vh;
         }
         header {
             background-color:#5C4033;
@@ -202,7 +203,7 @@
             <div class="card">
                 <img src="image/ayah2.jpg" alt="ayah">
                 <h3>SULAIMAN MD NOH</h3>
-                <p>My first lover!</p>
+                <p>My first love!</p>
             </div>
             <!-- Card 2 -->
             <div class="card">
@@ -280,6 +281,67 @@ alt="family" width="420" height="440"></center>
 <br>
 <br>
 <br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Back to Top Button</title>
+  <style>
+
+    /* Back to Top Button Style */
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #5C4033;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 15px 20px;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: none; /* Hidden by default */
+      z-index: 1000;
+    }
+
+    .back-to-top:hover {
+      background-color: #e3d3cd;
+    }
+  </style>
+</head>
+<body>
+
+
+ <button class="back-to-top" id="backToTop">↑</button>
+
+
+  <script>
+    // Get the button element
+    const backToTopButton = document.getElementById('backToTop');
+
+    // Show or hide the button based on scroll position
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 200) { // Show after scrolling 200px
+        backToTopButton.style.display = 'block';
+      } else {
+        backToTopButton.style.display = 'none';
+      }
+    });
+
+    // Scroll back to top when the button is clicked
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Smooth scrolling
+      });
+    });
+  </script>
+</body>
+</html>
+
 
 <!DOCTYPE html>
 <html lang="en">
