@@ -699,6 +699,108 @@ footer {
     .back-to-top:hover {
       background-color: #e3d3cd;
     }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #5C4033; 
+            font-size: 30px;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ffff;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #5C4033; 
+            font-size: 30px;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ffff;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #5C4033; 
+            font-size: 30px;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ffff;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #5C4033; 
+            font-size: 30px;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ffff;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #5C4033; 
+            font-size: 30px;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ffff;
+        }
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #5C4033; 
+            font-size: 30px;
+            transition: color 0.3s;
+        }
+
+        .social-media a:hover {
+            color: #ffff;
+        }
 </style>
 </head>
 
